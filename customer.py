@@ -177,7 +177,6 @@ def admin_menu():
             admin.view_customers(restaurant)
         elif choice == 7:
             admin.view_menu(restaurant)
-            # restaurant.show_menu()
         elif choice == 8:
             break
         else:
@@ -245,3 +244,6 @@ while True:
         break
     else:
         print("Invalid option! Try again.")
+        
+        
+        
